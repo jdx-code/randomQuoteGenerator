@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.2f291a1c.css","mappings":"AAAA,KACI,wBACJ,CACA,EACI,SACJ,CCLA,sBACI,cACJ,CAEA,UACI,UACJ","sources":["App.css","Footer/Footer.css"],"sourcesContent":["body{\n    background-color: #1b1b32;\n}\np{\n    color:red; \n}\n",".reactIconCustomStyle{\n    font-size: 25px;    \n}\n\n.footer p{\n    color: #666\n}"],"names":[],"sourceRoot":""}
