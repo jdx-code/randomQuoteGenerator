@@ -1,6 +1,7 @@
 import React from 'react';  
 import {QUOTES_ARRAY} from "./QuotesComponent.js";
 import './App.css'
+import Footer from './Footer/Footer.js'
 
 let randomIndex = Math.round(Math.random() * QUOTES_ARRAY.length);
 
@@ -31,7 +32,7 @@ class App extends React.Component{
                     <wrapper id="quote-box">
                         <div class="card text-center">
                             <div class="card-header">
-                            Famous Quotes
+                            Random Quote Generator 
                             </div>
                             <div class="card-body">
                             <h5 class="card-title">
@@ -49,7 +50,7 @@ class App extends React.Component{
                             <a class="btn btn-primary" href={`https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=${this.state.quote} - ${this.state.author}`} target="_blank" id="tweet-quote"> Tweet Quote</a>
                             </div>
                             <div class="card-footer text-muted">
-                            This project was built as a part of freeCodeCamp's Front End Libraries Certification.
+                                <Footer />
                             </div>
                         </div>                   
                     </wrapper>
